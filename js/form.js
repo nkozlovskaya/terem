@@ -1,6 +1,4 @@
-import phpServer from "php-server";
 
-const server = await phpServer();
 
 function sendJSON() {
   const name = document.querySelector("#name");
