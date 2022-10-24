@@ -16,9 +16,9 @@ description lorem ipsum
 
 Примерная схема:
 
-[ ]
-[ ][ ][ ]
-[ ][ ]
+- [ ]
+- [ ][ ][ ]
+- [ ][ ]
 
 
 <img width="1677" alt="Снимок экрана 2022-10-24 в 13 24 18" src="https://user-images.githubusercontent.com/64790767/197533074-bbfa370f-6c6f-40c5-887b-f503b7dac90f.png">
