@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="css/form.css" />
     <title>Тест форма</title>
   </head>
   <body>
@@ -19,9 +19,9 @@
         </select>
         <div class="form_info">
           <div class="form_input text-field">
-            <label class="text-field_label" for="text"
-              ><span>✱</span> Имя пользователя</label
-            >
+            <label class="text-field_label" for="text">
+              ✱ Имя пользователя
+            </label>
             <input
               name="name"
               id="name"
@@ -31,9 +31,7 @@
             />
           </div>
           <div class="form_input text-field">
-            <label class="text-field_label" for="text"
-              ><span>✱</span> Телефон</label
-            >
+            <label class="text-field_label" for="text"> ✱ Телефон </label>
             <input
               name="phone"
               id="phone"
@@ -43,7 +41,7 @@
             />
           </div>
         </div>
-        <button class="form_button" id="formBtn">Отправить</button>
+        <button class="form_button" onclick="sendJSON()">Отправить</button>
       </form>
     </div>
 
@@ -52,6 +50,6 @@
     <p class="result" style="color: blue"></p>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script type="text/javascript" src="./js/form.js"></script>
+    <script type="text/javascript" src="js/form.js"></script>
   </body>
 </html>
