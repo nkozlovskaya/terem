@@ -28,15 +28,18 @@ h1 {
 .second_one {
   width: 33%;
   background-color: lightblue;
+  order: 1;
 }
 .second_two {
   width: 33%;
   background-color: lightgreen;
   border: dashed;
+   order: 2;
 }
 .second_three {
   width: 33%;
   background-color: lightpink;
+  order: 3;
 }
 
 .third_row {
@@ -52,6 +55,7 @@ h1 {
   display: inline-block;
   width: 66%;
   position: relative;
+ 
 }
 .button {
   position: absolute;
@@ -64,7 +68,7 @@ h1 {
 }
 
 .order {
-  order: -1;
+  order: 0;
 }
 
 .overlay {
